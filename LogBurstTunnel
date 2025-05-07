@@ -1,0 +1,23 @@
+
+---
+
+### **3. 30_LogBurstTunnel**  
+**Description:**  
+Detects burst waves, repeated error tunnels, and anomaly clusters in application/system logs.
+
+#### **README.md**
+```markdown
+# LogBurstTunnel - Repetition and Anomaly Log Analyzer
+
+LogBurstTunnel uncovers clusters of repeated log entries and cascading errors over time.
+
+## Features
+- Burst pattern recognition  
+- Keyword density timeline  
+- CLI with export  
+
+## Usage
+```bash
+git clone https://github.com/your-username/30_LogBurstTunnel.git
+cd 30_LogBurstTunnel
+python analyze.py
