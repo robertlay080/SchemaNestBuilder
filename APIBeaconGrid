@@ -1,0 +1,22 @@
+
+---
+
+**APIBeaconGrid**  
+**Description:**  
+Scans APIs in parallel and emits health "beacons" to map uptime, latency drift, and failure events over time.
+
+```markdown
+# APIBeaconGrid - API Health Mapping Utility
+
+APIBeaconGrid provides a grid-based overview of API performance, useful for microservice monitoring and alerting.
+
+## Features
+- Beacon-style health scans  
+- Realtime updates  
+- Output: CSV or JSON
+
+## Usage
+```bash
+git clone https://github.com/your-username/APIBeaconGrid.git
+cd APIBeaconGrid
+python monitor.py
